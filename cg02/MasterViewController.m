@@ -17,6 +17,8 @@
 
 @implementation MasterViewController
 
+@synthesize thingsToLearn = _thingsToLearn;
+@synthesize thingsLearned = _thingsLearned;
 
 - (void)awakeFromNib
 {
@@ -27,6 +29,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"Core Graphics 101";
+    
+    self.thingsToLearn = [NSMutableArray arrayWithObjects:@"Drawing Rects", 
+                          @"Drawing Gradients", @"Drawing Arcs", nil];
+    
+    self.thingsLearned = [NSMutableArray arrayWithObjects:@"Table Views", 
+                          @"UIKit", @"Objective-C", nil];
+    
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
@@ -37,11 +48,14 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    self.thingsToLearn = nil;
+    self.thingsLearned = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    // return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 - (void)insertNewObject:(id)sender
@@ -58,20 +72,32 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    // return _objects.count;
+    if (section == 0) {
+        return _thingsToLearn.count;
+    } else {
+        return _thingsToLearn.count;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    // NSDate *object = [_objects objectAtIndex:indexPath.row];
+    NSString *entry;
+    if (indexPath.section == 0) {
+        entry = [_thingsToLearn objectAtIndex:indexPath.row];
+    } else {
+        entry = [_thingsLearned objectAtIndex:indexPath.row];
+    }        
+    cell.textLabel.text = entry;
+    //cell.textLabel.text = [object description];
     return cell;
 }
 
@@ -113,6 +139,15 @@
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = [_objects objectAtIndex:indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
+    }
+}
+
+-(NSString *) tableView:(UITableView *)tableView 
+titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return @"Things We'll Learn";
+    } else {
+        return @"Things Already Covered";
     }
 }
 

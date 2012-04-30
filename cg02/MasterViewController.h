@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+NSMutableArray *_thingsToLearn;
+NSMutableArray *_thingsLearned;
+
 @interface MasterViewController : UITableViewController
+
+@property (copy) NSMutableArray *thingsToLearn;
+@property (copy) NSMutableArray *thingsLearned;
 
 @end
