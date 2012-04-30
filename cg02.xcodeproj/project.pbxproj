@@ -21,6 +21,18 @@
 		3E5A3854154EB78E001A7955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5A3832154EB78E001A7955 /* Foundation.framework */; };
 		3E5A385C154EB78E001A7955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A385A154EB78E001A7955 /* InfoPlist.strings */; };
 		3E5A385F154EB78E001A7955 /* cg02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A385E154EB78E001A7955 /* cg02Tests.m */; };
+		3E5A3882154EC0E2001A7955 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A3869154EC0E2001A7955 /* .gitignore */; };
+		3E5A3883154EC0E2001A7955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A386C154EC0E2001A7955 /* AppDelegate.m */; };
+		3E5A3884154EC0E2001A7955 /* cg02-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A386D154EC0E2001A7955 /* cg02-Info.plist */; };
+		3E5A3885154EC0E2001A7955 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A3870154EC0E2001A7955 /* DetailViewController.m */; };
+		3E5A3886154EC0E2001A7955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A3871154EC0E2001A7955 /* InfoPlist.strings */; };
+		3E5A3887154EC0E2001A7955 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A3873154EC0E2001A7955 /* MainStoryboard.storyboard */; };
+		3E5A3888154EC0E2001A7955 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A3875154EC0E2001A7955 /* main.m */; };
+		3E5A3889154EC0E2001A7955 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A3877154EC0E2001A7955 /* MasterViewController.m */; };
+		3E5A388A154EC0E2001A7955 /* cg02Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A387C154EC0E2001A7955 /* cg02Tests-Info.plist */; };
+		3E5A388B154EC0E2001A7955 /* cg02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5A387E154EC0E2001A7955 /* cg02Tests.m */; };
+		3E5A388C154EC0E2001A7955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A387F154EC0E2001A7955 /* InfoPlist.strings */; };
+		3E5A388D154EC0E2001A7955 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E5A3881154EC0E2001A7955 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,24 @@
 		3E5A385B154EB78E001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E5A385D154EB78E001A7955 /* cg02Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cg02Tests.h; sourceTree = "<group>"; };
 		3E5A385E154EB78E001A7955 /* cg02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cg02Tests.m; sourceTree = "<group>"; };
+		3E5A3869154EC0E2001A7955 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3E5A386B154EC0E2001A7955 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E5A386C154EC0E2001A7955 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E5A386D154EC0E2001A7955 /* cg02-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cg02-Info.plist"; sourceTree = "<group>"; };
+		3E5A386E154EC0E2001A7955 /* cg02-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cg02-Prefix.pch"; sourceTree = "<group>"; };
+		3E5A386F154EC0E2001A7955 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3E5A3870154EC0E2001A7955 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3E5A3872154EC0E2001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E5A3874154EC0E2001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3E5A3875154EC0E2001A7955 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E5A3876154EC0E2001A7955 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3E5A3877154EC0E2001A7955 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3E5A3878154EC0E2001A7955 /* cg02.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cg02.xcodeproj; sourceTree = "<group>"; };
+		3E5A387C154EC0E2001A7955 /* cg02Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "cg02Tests-Info.plist"; sourceTree = "<group>"; };
+		3E5A387D154EC0E2001A7955 /* cg02Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cg02Tests.h; sourceTree = "<group>"; };
+		3E5A387E154EC0E2001A7955 /* cg02Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cg02Tests.m; sourceTree = "<group>"; };
+		3E5A3880154EC0E2001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E5A3881154EC0E2001A7955 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +114,7 @@
 		3E5A3821154EB78E001A7955 = {
 			isa = PBXGroup;
 			children = (
+				3E5A3868154EC0E2001A7955 /* cg02 */,
 				3E5A3836154EB78E001A7955 /* cg02 */,
 				3E5A3857154EB78E001A7955 /* cg02Tests */,
 				3E5A382F154EB78E001A7955 /* Frameworks */,
@@ -156,6 +187,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3E5A3868154EC0E2001A7955 /* cg02 */ = {
+			isa = PBXGroup;
+			children = (
+				3E5A3869154EC0E2001A7955 /* .gitignore */,
+				3E5A386A154EC0E2001A7955 /* cg02 */,
+				3E5A3878154EC0E2001A7955 /* cg02.xcodeproj */,
+				3E5A387B154EC0E2001A7955 /* cg02Tests */,
+				3E5A3881154EC0E2001A7955 /* README.md */,
+			);
+			name = cg02;
+			sourceTree = "<group>";
+		};
+		3E5A386A154EC0E2001A7955 /* cg02 */ = {
+			isa = PBXGroup;
+			children = (
+				3E5A386B154EC0E2001A7955 /* AppDelegate.h */,
+				3E5A386C154EC0E2001A7955 /* AppDelegate.m */,
+				3E5A386D154EC0E2001A7955 /* cg02-Info.plist */,
+				3E5A386E154EC0E2001A7955 /* cg02-Prefix.pch */,
+				3E5A386F154EC0E2001A7955 /* DetailViewController.h */,
+				3E5A3870154EC0E2001A7955 /* DetailViewController.m */,
+				3E5A3871154EC0E2001A7955 /* InfoPlist.strings */,
+				3E5A3873154EC0E2001A7955 /* MainStoryboard.storyboard */,
+				3E5A3875154EC0E2001A7955 /* main.m */,
+				3E5A3876154EC0E2001A7955 /* MasterViewController.h */,
+				3E5A3877154EC0E2001A7955 /* MasterViewController.m */,
+			);
+			path = cg02;
+			sourceTree = "<group>";
+		};
+		3E5A3879154EC0E2001A7955 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E5A387B154EC0E2001A7955 /* cg02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E5A387C154EC0E2001A7955 /* cg02Tests-Info.plist */,
+				3E5A387D154EC0E2001A7955 /* cg02Tests.h */,
+				3E5A387E154EC0E2001A7955 /* cg02Tests.m */,
+				3E5A387F154EC0E2001A7955 /* InfoPlist.strings */,
+			);
+			path = cg02Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,6 +290,12 @@
 			mainGroup = 3E5A3821154EB78E001A7955;
 			productRefGroup = 3E5A382D154EB78E001A7955 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E5A3879154EC0E2001A7955 /* Products */;
+					ProjectRef = 3E5A3878154EC0E2001A7955 /* cg02.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3E5A382B154EB78E001A7955 /* cg02 */,
@@ -228,6 +311,13 @@
 			files = (
 				3E5A383B154EB78E001A7955 /* InfoPlist.strings in Resources */,
 				3E5A3844154EB78E001A7955 /* MainStoryboard.storyboard in Resources */,
+				3E5A3882154EC0E2001A7955 /* .gitignore in Resources */,
+				3E5A3884154EC0E2001A7955 /* cg02-Info.plist in Resources */,
+				3E5A3886154EC0E2001A7955 /* InfoPlist.strings in Resources */,
+				3E5A3887154EC0E2001A7955 /* MainStoryboard.storyboard in Resources */,
+				3E5A388A154EC0E2001A7955 /* cg02Tests-Info.plist in Resources */,
+				3E5A388C154EC0E2001A7955 /* InfoPlist.strings in Resources */,
+				3E5A388D154EC0E2001A7955 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +356,11 @@
 				3E5A3841154EB78E001A7955 /* AppDelegate.m in Sources */,
 				3E5A3847154EB78E001A7955 /* MasterViewController.m in Sources */,
 				3E5A384A154EB78E001A7955 /* DetailViewController.m in Sources */,
+				3E5A3883154EC0E2001A7955 /* AppDelegate.m in Sources */,
+				3E5A3885154EC0E2001A7955 /* DetailViewController.m in Sources */,
+				3E5A3888154EC0E2001A7955 /* main.m in Sources */,
+				3E5A3889154EC0E2001A7955 /* MasterViewController.m in Sources */,
+				3E5A388B154EC0E2001A7955 /* cg02Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +403,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E5A385B154EB78E001A7955 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E5A3871154EC0E2001A7955 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5A3872154EC0E2001A7955 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E5A3873154EC0E2001A7955 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5A3874154EC0E2001A7955 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3E5A387F154EC0E2001A7955 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E5A3880154EC0E2001A7955 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
