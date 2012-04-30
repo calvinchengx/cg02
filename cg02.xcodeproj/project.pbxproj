@@ -38,22 +38,22 @@
 		3E5A3830154EB78E001A7955 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E5A3832154EB78E001A7955 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E5A3834154EB78E001A7955 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3E5A3838154EB78E001A7955 /* cg02-Info.plist */ = {isa = PBXFileReference; path = "cg02-Info.plist"; sourceTree = "<group>"; };
+		3E5A3838154EB78E001A7955 /* cg02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cg02-Info.plist"; sourceTree = "<group>"; };
 		3E5A383A154EB78E001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E5A383C154EB78E001A7955 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E5A383E154EB78E001A7955 /* cg02-Prefix.pch */ = {isa = PBXFileReference; path = "cg02-Prefix.pch"; sourceTree = "<group>"; };
-		3E5A383F154EB78E001A7955 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E5A383E154EB78E001A7955 /* cg02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cg02-Prefix.pch"; sourceTree = "<group>"; };
+		3E5A383F154EB78E001A7955 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E5A3840154EB78E001A7955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E5A3843154EB78E001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3E5A3845154EB78E001A7955 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		3E5A3845154EB78E001A7955 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		3E5A3846154EB78E001A7955 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3E5A3848154EB78E001A7955 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		3E5A3848154EB78E001A7955 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3E5A3849154EB78E001A7955 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3E5A3850154EB78E001A7955 /* cg02Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cg02Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5A3851154EB78E001A7955 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3E5A3859154EB78E001A7955 /* cg02Tests-Info.plist */ = {isa = PBXFileReference; path = "cg02Tests-Info.plist"; sourceTree = "<group>"; };
+		3E5A3859154EB78E001A7955 /* cg02Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cg02Tests-Info.plist"; sourceTree = "<group>"; };
 		3E5A385B154EB78E001A7955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3E5A385D154EB78E001A7955 /* cg02Tests.h */ = {isa = PBXFileReference; path = cg02Tests.h; sourceTree = "<group>"; };
+		3E5A385D154EB78E001A7955 /* cg02Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cg02Tests.h; sourceTree = "<group>"; };
 		3E5A385E154EB78E001A7955 /* cg02Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cg02Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
